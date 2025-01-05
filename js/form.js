@@ -113,6 +113,7 @@ const hideModal = () => {
   form.reset();
   resetScale();
   resetEffect();
+  submitBtn.disabled = false;
   pristine.reset();
   overlay.classList.add('hidden');
   body.classList.remove('modal-open');
